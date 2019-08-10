@@ -31,7 +31,7 @@ public class TelaGameOver extends JFrame {
 		lblNewLabel.setBounds(0, 0, 700, 438);
 		contentPane.add(lblNewLabel);
 		
-		JButton btnNewButton = new JButton("INÕCIO");
+		JButton btnNewButton = new JButton("IN√çCIO");
 		btnNewButton.setBackground(Color.GREEN);
 		lblNewLabel.add(btnNewButton);
 		btnNewButton.addMouseListener(new MouseAdapter() {

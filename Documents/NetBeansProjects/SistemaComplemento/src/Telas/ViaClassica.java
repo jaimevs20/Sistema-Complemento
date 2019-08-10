@@ -60,7 +60,7 @@ public class ViaClassica extends JFrame {
 	JButton btnAux4 = new JButton("");
 
 	public ViaClassica() {
-		setTitle("VIA CL¡SSICA");
+		setTitle("VIA CLÔøΩSSICA");
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(0, 0, 1293, 744);
@@ -72,7 +72,7 @@ public class ViaClassica extends JFrame {
 		pnViaAlternativa.setAlignmentX(100);
 		pnViaAlternativa.setLayout(null);
 
-		JLabel lblViaAlternativa = new JLabel("VIA CL¡SSICA");
+		JLabel lblViaAlternativa = new JLabel("VIA CL√ÅSSICA");
 		lblViaAlternativa.setFont(new Font("Century Gothic", Font.BOLD, 25));
 		lblViaAlternativa.setHorizontalAlignment(SwingConstants.CENTER);
 		lblViaAlternativa.setBounds(521, 11, 386, 56);
@@ -369,7 +369,7 @@ public class ViaClassica extends JFrame {
 		label_21.setBounds(466, 467, 85, 97);
 		pnViaAlternativa.add(label_21);
 
-		JButton btnNovoJogo = new JButton("PrÛximo");
+		JButton btnNovoJogo = new JButton("Pr√≥ximo");
 		btnNovoJogo.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -506,7 +506,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "VocÍ j· tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "Voc√™ j√° tem " + getAcerto() + " acerto(s)");
 						} else {
 							acerto = 0;
 							setAcerto(acerto);
@@ -521,7 +521,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGameOver().setVisible(true);
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "VocÍ j· tem " + getErro() + " erro(s)");
+										+ "Voc√™ j√° tem " + getErro() + " erro(s)");
 
 						}
 
@@ -552,7 +552,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "VocÍ j· tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "Voc√™ j√° tem " + getAcerto() + " acerto(s)");
 						} else {
 
 							acerto = 0;
@@ -568,7 +568,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGameOver().setVisible(true);
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "VocÍ j· tem " + getErro() + " erro(s)");
+										+ "Voc√™ j√° tem " + getErro() + " erro(s)");
 						}
 
 						break;
@@ -597,7 +597,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "VocÍ j· tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "Voc√™ j√° tem " + getAcerto() + " acerto(s)");
 						} else {
 
 							acerto = 0;
@@ -614,7 +614,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGameOver().setVisible(true);
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "VocÍ j· tem " + getErro() + " erro(s)");
+										+ "Voc√™ j√° tem " + getErro() + " erro(s)");
 						}
 
 						break;
@@ -644,7 +644,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "VocÍ j· tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "Voc√™ j√° tem " + getAcerto() + " acerto(s)");
 						} else {
 							acerto = 0;
 							setAcerto(acerto);
@@ -659,7 +659,7 @@ public class ViaClassica extends JFrame {
 								  new TelaGameOver().setVisible(true);
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "VocÍ j· tem " + getErro() + " erro(s)");
+										+ "Voc√™ j√° tem " + getErro() + " erro(s)");
 						}
 
 						break;

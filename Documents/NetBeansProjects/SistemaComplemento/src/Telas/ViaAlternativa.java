@@ -429,7 +429,7 @@ public class ViaAlternativa extends JFrame {
 		label_21.setBounds(505, 358, 85, 97);
 		pnViaAlternativa.add(label_21);
 
-		JButton btnNovoJogo = new JButton("Próximo");
+		JButton btnNovoJogo = new JButton("PrÃ³ximo");
 		btnNovoJogo.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -497,7 +497,7 @@ public class ViaAlternativa extends JFrame {
 								new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "Você já tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "VocÃª jÃ¡ tem " + getAcerto() + " acerto(s)");
 						} else {
 							acerto = 0;
 							setAcerto(acerto);
@@ -512,7 +512,7 @@ public class ViaAlternativa extends JFrame {
 								  new TelaGameOver().setVisible(true); 
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "Você já tem " + getErro() + " erro(s)");
+										+ "VocÃª jÃ¡ tem " + getErro() + " erro(s)");
 						}
 						break;
 					}
@@ -541,7 +541,7 @@ public class ViaAlternativa extends JFrame {
 								  new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "Você já tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "VocÃª jÃ¡ tem " + getAcerto() + " acerto(s)");
 						} else {
 
 							acerto = 0;
@@ -557,7 +557,7 @@ public class ViaAlternativa extends JFrame {
 								  new TelaGameOver().setVisible(true); 
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "Você já tem " + getErro() + " erro(s)");
+										+ "VocÃª jÃ¡ tem " + getErro() + " erro(s)");
 						}
 						break;
 					}
@@ -585,7 +585,7 @@ public class ViaAlternativa extends JFrame {
 								  new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "Você já tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "VocÃª jÃ¡ tem " + getAcerto() + " acerto(s)");
 						} else {
 
 							acerto = 0;
@@ -602,7 +602,7 @@ public class ViaAlternativa extends JFrame {
 								  new TelaGameOver().setVisible(true); 
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "Você já tem " + getErro() + " erro(s)");
+										+ "VocÃª jÃ¡ tem " + getErro() + " erro(s)");
 						}
 						break;
 					}
@@ -631,7 +631,7 @@ public class ViaAlternativa extends JFrame {
 								 new TelaGanhou().setVisible(true);
 							} else if (getAcerto() < 3)
 								JOptionPane.showMessageDialog(null,
-										"Muito bem!" + "\n" + "Você já tem " + getAcerto() + " acerto(s)");
+										"Muito bem!" + "\n" + "VocÃª jÃ¡ tem " + getAcerto() + " acerto(s)");
 						} else {
 							acerto = 0;
 							setAcerto(acerto);
@@ -646,7 +646,7 @@ public class ViaAlternativa extends JFrame {
 								  new TelaGameOver().setVisible(true); 
 							} else if (getErro() < 3)
 								JOptionPane.showMessageDialog(null, "Errou, o correto seria: " + getAux1() + "\n"
-										+ "Você já tem " + getErro() + " erro(s)");
+										+ "VocÃª jÃ¡ tem " + getErro() + " erro(s)");
 						}
 						break;
 					}

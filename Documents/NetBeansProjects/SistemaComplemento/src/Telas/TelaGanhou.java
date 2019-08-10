@@ -44,7 +44,7 @@ public class TelaGanhou extends JFrame {
 		lblNewLabel.setBounds(0, 0, 558, 651);
 		contentPane.add(lblNewLabel);
 		
-		JButton btnNewButton = new JButton("INÕCIO");
+		JButton btnNewButton = new JButton("IN√çCIO");
 		lblNewLabel.add(btnNewButton);
 		
 		azul2.setIcon(new ImageIcon(TelaGanhou.class.getResource("/Telas/BalaoAzul.png")));
